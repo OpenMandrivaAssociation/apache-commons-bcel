@@ -8,7 +8,7 @@ URL:		https://commons.apache.org/proper/commons-bcel/
 Source0:	https://archive.apache.org/dist/commons/bcel/source/bcel-%{version}-src.tar.gz
 
 BuildArch:	noarch
-BuildRequires:	mvn(org.apache.commons:commons-parent:pom:)
+BuildRequires:	mvn(org.apache.commons:commons-parent:pom::)
 BuildRequires:	mvn(org.apache.commons:commons-lang3)
 BuildRequires:	mvn(commons-io:commons-io)
 BuildRequires:	python
