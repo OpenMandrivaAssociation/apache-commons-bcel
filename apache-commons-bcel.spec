@@ -12,6 +12,9 @@ BuildRequires:	mvn(org.apache.commons:commons-parent:pom:)
 BuildRequires:	mvn(org.apache.commons:commons-lang3)
 BuildRequires:	mvn(commons-io:commons-io)
 BuildRequires:	python
+# Literal, so the first rpmbuild -bs records them before sysjar is installed.
+BuildRequires:	maven
+BuildRequires:	java-current-devel
 BuildSystem:	maven
 BuildOption(install):	--file-name bcel --link %{name} --alias org.apache.bcel:bcel
 
