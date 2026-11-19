@@ -1,2 +1,4 @@
 sources:
+  bcel-6.14.0-src.tar.gz: 2d5a6fa25725584de1c690c88e0275c21a8848dc
+removed_sources:
   bcel-6.13.0-src.tar.gz: f926943395c1b24e6f058aceed53ef3633682c4b

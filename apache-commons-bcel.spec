@@ -1,5 +1,5 @@
 Name:		apache-commons-bcel
-Version:	6.13.0
+Version:	6.14.0
 Release:	1
 Summary:	Byte Code Engineering Library
 Group:		Development/Java
@@ -24,6 +24,7 @@ and manipulate Java class files.
 
 %prep
 %setup -q -n bcel-%{version}-src
+find . \( -name '*.jar' -o -name '*.class' \) -delete
 # commons-parent already binds maven-source-plugin:jar-no-fork. This
 # project's second attach-sources execution makes the plugin fail.
 python - <<'PY'
